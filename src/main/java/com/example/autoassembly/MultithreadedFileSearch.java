@@ -43,11 +43,11 @@ public class MultithreadedFileSearch {
                     search(file, executorService, futures);
                 }
                 if (file.getName().equals(fileToFind) || (file.getName().matches(fileMask))) {
-                        futures.add(executorService.submit(new FileSearchTask(file)));
-                    }
+                    futures.add(executorService.submit(new FileSearchTask(file)));
                 }
             }
         }
     }
+}
 
 
