@@ -18,10 +18,9 @@ public class FileCopy {
                 .forEach(sourceFile -> {
                     try {
                         Path targetFile = target.resolve(source.relativize(sourceFile));
-                        //Files.createDirectories(targetFile.getParent());
                         Files.copy(sourceFile, targetFile, StandardCopyOption.REPLACE_EXISTING);
                     } catch (IOException e) {
-                        System.out.println("Error copying file: " + e.getMessage());
+                        System.out.println("Error fileCopy: " + e.getMessage());
                     }
                 });
     }
