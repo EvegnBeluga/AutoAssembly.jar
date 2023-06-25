@@ -2,7 +2,7 @@
   <artifact type="jar" name="AutoAssembly:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/AutoAssembly_jar</output-path>
     <root id="archive" name="AutoAssembly.jar">
-      <element id="module-output" name="AutoAssembly" />
+      <element id="module-output" name="Test_autoAssembly" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.4.8/logback-classic-1.4.8.jar" path-in-jar="/" />
