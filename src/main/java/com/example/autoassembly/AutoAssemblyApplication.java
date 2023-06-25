@@ -11,7 +11,7 @@ public class AutoAssemblyApplication {
     public static void main(String[] args) throws ExecutionException, InterruptedException, IOException {
 
         String rootDirectory = "path\\to\\source\\folder"; //корневая директория
-        String fileToFind = "file_Name"; //имя искомого файла
+        String fileToFind = "fileName"; //имя искомого файла
         String mask = "mask"; // маска
 
         MultithreadedFileSearch fileSearch = new MultithreadedFileSearch(rootDirectory, fileToFind, mask);
